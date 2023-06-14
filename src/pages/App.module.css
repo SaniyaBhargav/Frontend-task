@@ -1,0 +1,252 @@
+.selectYourSections {
+  align-self: stretch;
+  position: relative;
+  line-height: 40px;
+}
+.icon,
+.infoIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.infoIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.profileSummary {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.iconParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.icon1 {
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+.handle,
+.track {
+  position: absolute;
+}
+.track {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-56xl);
+  background-color: var(--m3-sys-dark-primary);
+}
+.handle {
+  top: calc(50% - 9px);
+  left: calc(50% - 9px);
+  border-radius: 17.25px;
+  background-color: var(--m3-sys-dark-on-primary);
+  width: 18px;
+  height: 18px;
+}
+.iconscheck24px {
+  position: absolute;
+  top: calc(50% - 6px);
+  left: calc(50% - 6px);
+  width: 12px;
+  height: 12px;
+}
+.handleContainer {
+  position: absolute;
+  top: calc(50% - 18px);
+  right: -6px;
+  width: 36px;
+  height: 36px;
+}
+.switchDark {
+  position: relative;
+  width: 39px;
+  height: 24px;
+}
+.frameGroup,
+.iconGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.iconGroup {
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.frameGroup {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.frameChild {
+  position: relative;
+  background-color: var(--neutral-black);
+  border-top: 1px solid var(--neutral-light-grey);
+  box-sizing: border-box;
+  width: 904px;
+  height: 1px;
+}
+.academicAndCocurricular {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.iconContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frameContainer {
+  text-align: left;
+}
+.frameContainer,
+.frameParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.handle4,
+.track4 {
+  position: absolute;
+  border-radius: var(--br-56xl);
+}
+.track4 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--neutral-light-grey);
+  border: 1.5px solid var(--neutral-mid-grey);
+  box-sizing: border-box;
+}
+.handle4 {
+  top: calc(50% - 9px);
+  left: calc(50% - 9px);
+  background-color: var(--neutral-mid-grey);
+  width: 18px;
+  height: 18px;
+}
+.handleContainer4 {
+  position: absolute;
+  top: calc(50% - 18px);
+  left: -6px;
+  width: 36px;
+  height: 36px;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.button {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+.buttons {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslateblue);
+  height: 52px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-191xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--body-body-large-roboto-16-24-05-size);
+  color: var(--neutral-white);
+}
+.selectYourSectionsParent {
+  position: absolute;
+  top: 78px;
+  left: 37px;
+  width: 354px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.batteryIcon,
+.wifiIcon {
+  position: absolute;
+  top: 17px;
+  right: 58px;
+  width: 18px;
+  height: 13px;
+}
+.batteryIcon {
+  right: 26.4px;
+  width: 26.6px;
+  height: 12.5px;
+}
+.receptionIcon {
+  position: relative;
+  width: 18.15px;
+  height: 11px;
+}
+.time {
+  position: absolute;
+  top: 15px;
+  left: 39px;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  font-weight: 600;
+}
+.iphoneStatusBar1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.iphoneStatusBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 428px;
+  height: 44px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-sf-pro-display);
+}
+.app {
+  position: relative;
+  background-color: var(--neutral-white);
+  width: 100%;
+  height: 926px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--neutral-black);
+  font-family: var(--body-body-large-roboto-16-24-05);
+}

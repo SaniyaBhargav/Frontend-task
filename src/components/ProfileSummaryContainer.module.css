@@ -1,0 +1,176 @@
+.icon,
+.infoIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.infoIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.profileSummary {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.iconParent,
+.profileSummaryWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.profileSummaryWrapper {
+  border: 1px solid var(--color-darkslategray);
+  padding: var(--padding-9xs) var(--padding-3xs);
+  align-items: flex-start;
+}
+.iconParent {
+  align-items: center;
+  gap: var(--gap-base);
+}
+.addIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+.buttons {
+  border-radius: var(--br-3xs);
+  width: 99px;
+  height: 35px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-191xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.handle,
+.track {
+  position: absolute;
+}
+.track {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-56xl);
+  background-color: var(--m3-sys-dark-primary);
+}
+.handle {
+  top: calc(50% - 9px);
+  left: calc(50% - 9px);
+  border-radius: 17.25px;
+  background-color: var(--m3-sys-dark-on-primary);
+  width: 18px;
+  height: 18px;
+}
+.iconscheck24px {
+  position: absolute;
+  top: calc(50% - 6px);
+  left: calc(50% - 6px);
+  width: 12px;
+  height: 12px;
+}
+.handleContainer {
+  position: absolute;
+  top: calc(50% - 18px);
+  right: -6px;
+  width: 36px;
+  height: 36px;
+}
+.switchDark {
+  position: relative;
+  width: 39px;
+  height: 24px;
+}
+.buttonsParent,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonsParent {
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.frameGroup {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.frameChild {
+  position: relative;
+  background-color: var(--neutral-black);
+  border-top: 1px solid var(--neutral-light-grey);
+  box-sizing: border-box;
+  width: 904px;
+  height: 1px;
+}
+.icon2 {
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+.frameContainer {
+  align-self: stretch;
+  background-color: var(--color-silver);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.handle4,
+.track4 {
+  position: absolute;
+  border-radius: var(--br-56xl);
+}
+.track4 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--neutral-light-grey);
+  border: 1.5px solid var(--neutral-mid-grey);
+  box-sizing: border-box;
+}
+.handle4 {
+  top: calc(50% - 9px);
+  left: calc(50% - 9px);
+  background-color: var(--neutral-mid-grey);
+  width: 18px;
+  height: 18px;
+}
+.handleContainer4 {
+  position: absolute;
+  top: calc(50% - 18px);
+  left: -6px;
+  width: 36px;
+  height: 36px;
+}
+.frameParent {
+  width: 903px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--body-body-large-roboto-16-24-05-size);
+  color: var(--neutral-black);
+  font-family: var(--body-body-large-roboto-16-24-05);
+}

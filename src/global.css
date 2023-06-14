@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-body-large-roboto-16-24-05: Inter;
+  --font-inherit: inherit;
+  --font-sf-pro-display: "SF Pro Display";
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --body-body-large-roboto-16-24-05-size: 16px;
+  --font-size-sm: 14px;
+  --font-size-5xl: 24px;
+  --headline-headline-large-roboto-32-40-0-size: 32px;
+  --font-size-42xl-7: 61.7px;
+
+  /* Colors */
+  --neutral-black: #000;
+  --m3-sys-dark-on-primary: #381e72;
+  --m3-sys-dark-primary: #d0bcff;
+  --neutral-white: #fff;
+  --color-darkslateblue: #8a4893;
+  --neutral-light-grey: #e6e6e6;
+  --color-silver: #b6b6b6;
+  --neutral-mid-grey: #8b8b8b;
+  --color-darkslategray: #414141;
+  --color-cadetblue: rgba(28, 142, 168, 0.4);
+
+  /* Gaps */
+  --gap-13xl: 32px;
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-sm: 14px;
+  --padding-191xl: 210px;
+  --padding-9xs: 4px;
+  --padding-3xs: 10px;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-mid-3: 17.3px;
+  --br-56xl: 75px;
+}
