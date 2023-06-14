@@ -18,15 +18,6 @@
 			"react-router-dom": "^6.2.1"
 	   		
     },
-	  {
-  "name": "babel-preset-react-app",
-  "version": "10.0.0",
-  "description": "Babel preset used by Create React App",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "packages/babel-preset-react-app"
-  },
     "scripts": {
       "start": "react-scripts start",
       "build": "react-scripts build",
